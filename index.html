@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integración de Datos Externos</title>
+
+    <style>
+        body {
+            background-color: #e0ecf4;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            /* Cambiado de 'column' a 'row' para colocar los elementos en fila */
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-size: 2em;
+            margin: 0;
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 10px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .component-container {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para el componente personalizado */
+        external-data-component {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"</h1>
+            <br>
+            <h2>Actividad 6: Composición de Datos Externos.</h2>
+            <br>
+            <h3><b>Nombre: </b>Marco Espín</h3>
+        </header>
+    </div>
+
+    <external-data-component></external-data-component>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
